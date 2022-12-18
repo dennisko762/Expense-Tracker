@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/expenseItem"
+    >
+
+    <TextView
+        android:id="@+id/expenseType"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:letterSpacing="0.01"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:ellipsize="end"
+        android:text="expenseType"
+        android:textAlignment="viewStart"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/expenseValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.01"
+
+        android:minLines="1"
+        android:text="expenseValue"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>
